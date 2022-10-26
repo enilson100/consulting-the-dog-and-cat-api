@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+#dog,#cat{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   justify-content: center;
+}
+
+img{
+  
+    height: 400px;
+    width: 300px;
+    
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    color: white;
+    background-color: rgb(230, 71, 8);
+}
+
